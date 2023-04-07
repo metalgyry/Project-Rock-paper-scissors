@@ -1,0 +1,16 @@
+.modal_create_game {
+z-index: 1;
+background-color: rgba(0, 0, 0, 0.5);;
+position: absolute;
+top: 0px;
+right: 0px;
+bottom: 0px;
+left: 0px;
+display: none;
+}
+
+.modal_create_game_vis {
+display: flex;
+justify-content: center;
+align-items: center;
+}

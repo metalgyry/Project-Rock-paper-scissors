@@ -1,0 +1,347 @@
+.window {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.window_content {
+    width: 380px;
+    border: 3px solid black;
+    border-radius: 5px;
+    text-align: center;
+    padding-inline: 50px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+h1.main_title {
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+.intext {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    outline-offset: 0;
+}
+
+.butt  {
+    margin: 10px;
+    padding: 5px;
+    padding-inline: 50px;
+}
+
+.form_button {
+    font-size: 28px;
+    margin-top: 80px;
+}
+
+.other_page_dowload {
+    font-size: 12px;
+    padding-inline: 35px;
+}
+
+.inform_confitm {
+    font-size: 28px;
+}
+
+.code {
+    margin-top: 80px;
+}
+
+.nickname_profile {
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.logout {
+    padding: 5px 20px 5px 20px;
+}
+
+.window_main {
+
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.window_content_main {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.header_main {
+    background-color: white;
+    position: sticky;
+    top: 0px;
+    width: inherit;
+    height: auto;
+}
+
+.header_main_inform {
+    border-inline: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.list_lobby_header {
+    padding: 4px;
+    border: 2px solid black;
+    font-size: 30px;
+    text-align: center;
+}
+
+.create_lobby {
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 25px;
+}
+
+.button_create_lobby {
+    flex: 0 0 auto;
+    position: sticky;
+    bottom: 0px;
+    width: inherit;
+    height: 50px;
+}
+
+.list_lobby {
+    flex: 1 0 auto;
+    border-inline: 2px solid black;
+}
+
+
+.lobby_game {
+    border-bottom: 1px solid black;
+    align-items: center;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.name_enemy {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.nickname_enemy {
+    font-size: 16px;
+}
+
+.lobby_game_stat {
+    text-align: center;
+}
+
+.join_button {
+    padding: 10px;
+    padding-inline: 18px;
+}
+
+.modal_create_game_option {
+    font-size: 20px;
+    padding: 25px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 600px;
+    
+}
+
+.create_game_name {
+    font-size: 20px;
+}
+
+.game_mode_choice {
+    display: flex;
+    flex-direction: column;
+}
+
+.round_choice {
+    display: flex;
+    justify-content: left;
+}
+
+.round_choice_radio {
+    padding-inline: 20px;
+    padding-left: 0px;
+}
+
+.modal_create_game_title_up {
+    font-size: 30px;
+    margin-top: 0px;
+}
+
+.modal_create_game_title {
+    font-size: 30px;
+}
+
+.game_mode_change {
+    margin-bottom: 50px;
+}
+
+.usual_mode {
+    margin-bottom: 15px;
+}
+
+.div_b_create_game {
+    display: flex;
+    justify-content: center;
+}
+
+.butt_game {
+    margin-inline: 20px;
+    padding: 6px 70px;
+    font-size: 20px;
+}
+
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+.tooltip .tooltiptext {
+    bottom: 20px;
+    visibility: hidden;
+    width: max-content;
+    background-color:  rgba(0, 0, 0, 0.6);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px 20px 15px 0px;
+    font-size: 18px;
+    position: absolute;
+}
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.gdiv_logout {
+    justify-content: flex-end;
+}
+
+.game_zone {
+    height: 100%;
+    border-inline: 2px solid black;
+}
+
+.gdiv_name_enemy {
+    border: none;
+    border-inline: 2px solid black;
+}
+
+.game_arena {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 65%;
+}
+
+.my_hand {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 35%;  
+}
+
+.hand_game {
+    width: 120px;
+    height: 120px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.hand {
+    top: 40%;
+    position: relative;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.game_info {
+    text-align: center;
+    margin: 20px 0 20px 0;
+    font-size: 26px;
+}
+
+.my_nickname {
+    font-size: 30px;
+}
+
+.butt_ready_hand {
+    font-size: 16px;
+    padding: 5px 60px;
+}
+
+.hand_change {
+    display: flex;
+    flex-direction: row;
+}
+
+.hand_choice {
+    margin: 10px;
+    width: 70px;
+    height: 70px;
+    border: 2px solid black;
+}
+
+
+.hand_change {
+	display: inline-block;
+	overflow: hidden;
+}
+.hand_item {
+	display: block;
+	float: left;    
+}
+.hand_change input[type=radio] {
+	display: none;
+}
+.hand_change label {
+	display: inline-block;
+	cursor: pointer;
+	padding: 0px 15px;
+	line-height: 34px;
+	border: 2px solid #999;
+	border-left: none;
+	user-select: none;
+}
+ 
+.hand_change .hand_item:first-child label {
+    border-left: 2px solid #999;
+}
+
+
+.hand_change input[type=radio]:checked + label {
+	background: #ffe0a6;
+}
+
+.hand_change label:hover {
+	color: #666;
+}
+
+.noauth_span {
+    cursor: pointer;
+}
+
+.noauth_span:hover {
+    text-decoration: underline;
+}

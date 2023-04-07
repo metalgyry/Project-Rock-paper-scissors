@@ -1,0 +1,8 @@
+.error_message {
+    font-size: 30px;
+    color: crimson;
+}
+
+.error_message_border {
+    border: 2px solid black;
+}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="all_style.css">
+    <title>Game</title>
+</head>
+<body>
+    <div class="modal_create_game modal_create_game_vis">
+        <div class="modal_create_game_option">
+            <form class="create_game">
+                <div class="num_rounds_game">
+                    <p class="num_rounds_game_title">Количество раундов:</p>
+                    <div class="round_choice">
+                        <div class="round_choice_radio">
+                            <input type="radio" name="round" value="1" id="round_1" checked class="round_radio">
+                            <label for="round_1">1</label>
+                        </div>
+                        <div class="round_choice_radio">
+                            <input type="radio" name="round" value="3" id="round_3" class="round_radio">
+                            <label for="round_3">3</label>
+                        </div>
+                        <div class="round_choice_radio">
+                            <input type="radio" name="round" value="5" id="round_5" class="round_radio">
+                            <label for="round_5">5</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="game_mode_choice">
+                    <p class="choice_mode_game_title">Режим игры:</p>
+                    <div class="game_mode_change">
+                        <div class="usual_mode">
+                            <input type="radio" name="mode" value="usual" id="usual" checked class="mode_radio">
+                            <span class="tooltip">
+                                <label for="usual">Обычный</label>
+                                <span class="tooltiptext">
+                                    <span>
+                                        Обычная версия игры в которой только три знака:<br>
+                                        Камень, Ножницы, Бумага.<br>
+                                        Победитель определяется по следующим правилам:<br>
+                                        Бумага побеждает камень;<br>
+                                        Камень побеждает ножницы;<br>
+                                        Ножницы побеждают бумагу.
+                                    </span>
+                                </span>
+                            </span>
+                        </div>
+                        <div class="advanced_mode">
+                            <input type="radio" name="mode" value="advanced" id="advanced" class="mode_radio">
+                            <span class="tooltip">
+                                <label for="advanced">Расширенный</label>
+                                <span class="tooltiptext">
+                                    <span>
+                                        Расширенная версия игры в которой пять знаков:<br>
+                                        Камень, Ножницы, Бумага, Ящерица, Спок.<br>
+                                        Победитель определяется по следующим правилам:<br>
+                                        Ножницы режут бумагу. Бумага заворачивает камень.<br>
+                                        Камень давит ящерицу, а ящерица травит Спока,<br>
+                                        в то время как Спок ломает ножницы, которые,<br>
+                                        в свою очередь, отрезают голову ящерице,<br>
+                                        которая ест бумагу, на которой улики против Спока.<br>
+                                        Спок испаряет камень, а камень,<br>
+                                        разумеется, затупляет ножницы
+                                    </span>
+                                </span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="div_b_create_game">
+                        <button type="submit" name="button_create_game" class="button_create_game butt_game">Создать</button>
+                        <button type="button" name="button_cancel_game" class="button_cancel_game butt_game">Отмена</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="window_main">
+        <div class="window_content_main">
+            <div class="header_main">
+                <div class="header_main_inform">
+                    <span class="nickname_profile">Egor</span>
+                    <button type="button" class="logout">Выход</button>
+                </div>
+                <div class="list_lobby_header">
+                    Список лобби
+                </div>
+            </div>
+            <div class="list_lobby">
+
+                <div class="lobby_game">
+                    <div class="nickname_enemy">FHJkndsus</div>
+                    <div class="lobby_game_stat">
+                        <p class="num_rounds">
+                            Раундов: 5
+                        </p>
+                        <p class="game_mode">
+                            Режим: Расширенный
+                        </p>
+                    </div>
+                    <div class="join_div">
+                        <button type="button" class="join_button">Присоединиться</button>
+                    </div>
+                </div>
+                
+                <!-- ТУТ ОСТАЛЬНЫЕ DIV(LOBBY_GAME) -->
+
+            </div>
+            <div class="button_create_lobby">
+                <button type="button" class="create_lobby">Создать лобби</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
